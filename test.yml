@@ -1,1 +1,10 @@
 name: Hatim
+age: 32
+address: "new: address"
+contacts:
+    - a1
+    - a3
+    - a2
+    - add: add 1
+      add2: add 2
+      city: city name
