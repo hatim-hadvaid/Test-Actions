@@ -6,6 +6,10 @@ jobs:
   run-javascript-action:
    runs-on: ubuntu-latest
    steps:
+     - name: File Listing
+       run: |
+         pwd
+         ls
      - name: first js Actions
        id: jsact
        uses: actions/hello-world-javascript-action@v1
