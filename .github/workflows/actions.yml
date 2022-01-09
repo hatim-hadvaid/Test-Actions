@@ -10,6 +10,12 @@ jobs:
        run: |
          pwd
          ls
+     - name: checkout action
+       uses: actions/checkout@v2.4
+     - name: File Listing again
+       run: |
+         pwd
+         ls -a
      - name: first js Actions
        id: jsact
        uses: actions/hello-world-javascript-action@v1
