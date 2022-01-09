@@ -10,6 +10,11 @@ jobs:
        run: |
          pwd
          ls
+         echo $GITHUB_SHA
+         echo $RUNNER_NAME
+         echo $GITHUB_WORKFLOW
+         echo $GITHUB_REPOSITORY
+         echo "${{ github.token}}"
      - name: checkout action
        uses: actions/checkout@v2.4.0
      - name: File Listing again
