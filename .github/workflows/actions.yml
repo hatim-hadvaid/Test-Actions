@@ -12,5 +12,5 @@ jobs:
        with: 
         who-to-greet: Manty
      - name: using output of step
-       run: echo "{{ steps.jsact.outputs.time }}"
+       run: echo "${{ steps.jsact.outputs.time }}"
         
